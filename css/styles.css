@@ -209,7 +209,7 @@ p {
 
 .hero-button:hover,
 .hero-button:focus {
-  color: var(--primary-text-color);
+  background-color: rgb(83, 136, 235);
 }
 
 /* team */
@@ -273,27 +273,25 @@ p {
 }
 
 .priorities-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 270px;
   height: 120px;
   background: #f5f4fa;
   border-radius: 4px;
   margin-bottom: 30px;
-  padding-top: 25px;
-  padding-bottom: 25px;
 }
 
 .icon-antenna {
-  display: block;
   width: 65.32px;
   height: 70px;
-  margin: 0 auto;
 }
 
 .icon-clock {
   display: block;
   width: 66.96px;
   height: 70px;
-  margin: 0 auto;
 }
 
 .icon-diagram,
@@ -301,7 +299,6 @@ p {
   display: block;
   width: 70px;
   height: 70px;
-  margin: 0 auto;
 }
 
 /* Service section */
